@@ -1,18 +1,35 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+
+const { fontFamily } = require('tailwindcss/defaultTheme')
+const withMT = require("@material-tailwind/react/utils/withMT")
+
+module.exports = withMT({
+  darkMode: ['class'],
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: '2rem',
+    },
+    colors: {
+      'dark': '#191835',
+      'light': '#F3F3F3',
+      'navbarBlur': 'rgba(0, 129, 230, 0.9);'
+    },
     extend: {
+      animation: {
+        'spin-slow': 'spin 30s linear infinite',
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        circularLight: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 100px);',
+      },
+      fontFamily: {
+        monty: ['var(--font-monty)', ...fontFamily.sans],
       },
     },
   },
   plugins: [],
-}
+})
