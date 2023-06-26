@@ -6,7 +6,6 @@ import { Csharp, Tailwind, Nextjs, Vuejs, Reactjs, Html5, Js, Css3, Jquery, Boot
 const MovingIcon = ({children, x, y }) => {
     return (
         <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
-                    whileHover={{scale: 0.9}}
                     initial={{x: 0, y: 0, opacity: 0}}
                     whileInView={{ x: x, y: y, opacity: 1 }}
                     transition={{duration: 1.5}}
