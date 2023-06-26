@@ -20,7 +20,7 @@ export default function page() {
                     <h2 className="mb-4 font-semibold lg:text-left text-dark/60">Believing is seeing...</h2>
                     <p className="font-medium">
                         The man you are reading about did not dream of becoming a software dev when he was in middle school.
-                        There was only a kid having fun, devoting time into learning how to cop free movies and become the villain's worst nightmare in online shooters.
+                        There was only a kid having fun, devoting time into learning how to cop free movies and become the villain&apos;s worst nightmare in online shooters.
                         To be fair, I was dedicating most of my energy into skateboarding and the upcoming soccer season.
                     </p>
                     <p className="my-4 font-medium">

@@ -16,10 +16,10 @@ export default function Footer() {
             <footer className={`w-full mt-11 font-medium text-lg
              ${pageURL === '/' ? 'md:fixed bottom-0 left-0' : 'relative'}`}>
 
-                <div className="p-3 md:p-8 flex items-center justify-evenly">
+                <div className="p-3 grid grid-cols-3 gap-6 text-center md:flex justify-evenly text-sm md:text-lg">
                     <Today />
                     <div>
-                        Built with <span className="text-pink-300 text-2xl px-1">&#9825;</span> by enjoiy
+                        Built with <span className="text-pink-300 px-1">&#9825;</span> by enjoiy
                     </div>           
                     <Link href="mailto:dream.cloud936@gmail.com" target={"_blank"} className="underline underline-offset-2">Say hello</Link>
                 </div>

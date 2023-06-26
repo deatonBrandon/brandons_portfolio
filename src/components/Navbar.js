@@ -2,7 +2,6 @@
 
 import Logo from './Logo'
 import {  useState, useEffect } from 'react'
-import Link from 'next/link'
 import { motion } from 'framer-motion'
 import useThemeSwitcher from './hooks/useThemeSwitcher'
 import { MoonIcon, SunIcon } from './Icons'
