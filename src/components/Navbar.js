@@ -126,7 +126,7 @@ export default function Navbar() {
                 <motion.div 
                 initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
                 animate={{scale: 1, opacity: 1 }}
-                className='w-[70vw] h-[40vw] md:w-[50vw] lg:w-[30vw] z-50 justify-evenly border items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/80 text-white dark:text-black dark:bg-white/75 rounded-lg backdrop-blur-sm py-32 antialiased'>
+                className='w-[70vw] h-[40vh] md:w-[50vw] lg:w-[30vw] z-50 justify-evenly border items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/80 text-white dark:text-black dark:bg-white/75 rounded-lg backdrop-blur-sm py-32 antialiased'>
                 <div className="w-full flex justify-center items-center">
 
                     <div className="flex flex-col-reverse text-center">
