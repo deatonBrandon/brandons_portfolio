@@ -33,10 +33,10 @@ const CustomMobileLink = ({href, title, className="", toggle}) => {
         router.push(href)
     }
     return (
-        <button onClick={handleClick} href={href} className={`${className} relative`}>
+        <button onClick={handleClick} href={href} className={`${className} relative group`}>
             {title}
 
-            <span className={`h-[2px] inline-block bg-light dark:bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300
+            <span className={`h-[2px] inline-block bg-light dark:bg-dark absolute left-0 -bottom-0.5 lg:group-hover:w-full transition-[width] ease duration-300 
             ${pageURL === href ? "w-full" : "w-0"}`}>&nbsp;</span>
         </button>
     )
@@ -127,7 +127,7 @@ export default function Navbar() {
 
                     <div className="flex flex-col-reverse text-center">
                         <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                        className="mx-8"
+                        className="mx-auto w-[30px]"
                         >
                             {
                                 mode === "dark" ?
