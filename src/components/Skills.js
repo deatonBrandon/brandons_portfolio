@@ -39,16 +39,6 @@ export default function Skills() {
                 <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
                     whileHover={{scale: 0.9}}
                     initial={{x:0, y:0, opacity: 0}}
-                    whileInView={{ x: "25vw", y: "15vw", opacity: 1 }}
-                    transition={{duration: 1.5}}
-                    viewport={{once: true}}
-                    >
-                    <Image src={Tailwind} alt='Next.js logo' height={40} width={40} />
-                </motion.div>
-
-                <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
-                    whileHover={{scale: 0.9}}
-                    initial={{x:0, y:0, opacity: 0}}
                     whileInView={{ x: "-11vw", y: "-20vw", opacity: 1 }}
                     transition={{duration: 1.5}}
                     viewport={{once: true}}
@@ -136,6 +126,16 @@ export default function Skills() {
                     viewport={{once: true}}
                     >
                     <Image src={Framer} alt='Next.js logo' height={40} width={40} />
+                </motion.div>
+
+                <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
+                    whileHover={{scale: 0.9}}
+                    initial={{x:0, y:0, opacity: 0}}
+                    whileInView={{ x: "25vw", y: "15vw", opacity: 1 }}
+                    transition={{duration: 1.5}}
+                    viewport={{once: true}}
+                    >
+                    <Image src={Tailwind} alt='Next.js logo' height={60} width={100} />
                 </motion.div>
             </div>
         </>
