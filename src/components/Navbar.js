@@ -54,20 +54,20 @@ export default function Navbar() {
 
     useEffect( () => {
 
-        const changeBackground = () => {
-            if (scrollY >= 20) {
+        const changeColor = () => {
+            if (window.scrollY >= 20) {
                 setNavbar(true)
             } else {
                 setNavbar(false)
             }
         }
-        document.addEventListener("scroll", changeBackground)
+        window.addEventListener('scroll', changeColor)
     }, [])
 
     return (
         <header>
             <nav className={`fixed top-0 left-0 z-10 flex w-full filter backdrop-blur-lg dark:text-[#191835] px-10 py-2 items-center transition-all duration-300 ease-in-out
-            ${navbar ? 'bg-light dark:bg-[#3192DE] transform transition-all duration-200' : null}
+            ${navbar ? 'bg-light dark:bg-[#3192DE]' : null}
             `}>
 
                 <div className='w-full flex justify-start'>
