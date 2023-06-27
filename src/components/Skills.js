@@ -1,20 +1,18 @@
 "use client"
 
 import { motion } from 'framer-motion'
-import { Csharp, Tailwind, Nextjs, Vuejs, Reactjs, Html5, Js, Css3, Jquery, Bootstrap, Framer } from './Icons'
-
-const MovingIcon = ({children, x, y }) => {
-    return (
-        <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
-                    initial={{x: 0, y: 0, opacity: 0}}
-                    whileInView={{ x: x, y: y, opacity: 1 }}
-                    transition={{duration: 1.5}}
-                    viewport={{once: true}}
-                    >
-                    {children}
-                </motion.div>
-    )
-}
+import Image from 'next/image'
+import Csharp from '../../public/svg/Csharp.svg'
+import Tailwind from '../../public/svg/Tailwind.svg'
+import Nextjs from '../../public/svg/Nextjs.svg'
+import Vuejs from '../../public/svg/Vuejs.svg'
+import Reactjs from '../../public/svg/React.svg'
+import Html5 from '../../public/svg/Html5.svg'
+import Js from '../../public/svg/Js.svg'
+import Css3 from '../../public/svg/Css3.svg'
+import Jquery from '../../public/svg/Jquery.svg'
+import Bootstrap from '../../public/svg/Bootstrap.svg'
+import Framer from '../../public/svg/Framer.svg'
 
 export default function Skills() {
 
@@ -28,21 +26,6 @@ export default function Skills() {
             className="font-bold text-6xl lg:text-8xl mt-32 lg:mt-64 w-full text-center">Skills</motion.h2>
 
             <div className="w-full h-[500px] lg:h-[85vh] relative flex items-center justify-center">
-
-                <MovingIcon x="-35vw" y="-20vw"><Nextjs /></MovingIcon>
-                <MovingIcon x="-11vw" y="-20vw"><Tailwind /></MovingIcon>
-                <MovingIcon x="15vw" y="-20vw"><Vuejs /></MovingIcon>
-                <MovingIcon x="35vw" y="-20vw"><Reactjs /></MovingIcon>
-                <MovingIcon x="-30vw" y="-3vw"><Js /></MovingIcon>
-                <MovingIcon x="-10vw" y="-3vw"><Html5 /></MovingIcon>
-                <MovingIcon x="10vw" y="-3vw"><Css3 /></MovingIcon>
-                <MovingIcon x="30vw" y="-3vw"><Csharp /></MovingIcon>
-                <MovingIcon x="-25vw" y="15vw"><Jquery /></MovingIcon>
-                <MovingIcon x="0vw" y="15vw"><Bootstrap /></MovingIcon>
-                <MovingIcon x="25vw" y="15vw"><Framer /></MovingIcon>
-
-{/* ##### == This is kept only in case I need to rewrite Icons individually (Responsiveness) == #####
-
                 <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
                     whileHover={{scale: 0.9}}
                     initial={{x:0, y:0, opacity: 0}}
@@ -50,7 +33,17 @@ export default function Skills() {
                     transition={{duration: 1.5}}
                     viewport={{once: true}}
                     >
-                    <Nextjs />
+                    <Image src={Nextjs} alt='Next.js logo' height={40} width={40} />
+                </motion.div>
+
+                <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
+                    whileHover={{scale: 0.9}}
+                    initial={{x:0, y:0, opacity: 0}}
+                    whileInView={{ x: "25vw", y: "15vw", opacity: 1 }}
+                    transition={{duration: 1.5}}
+                    viewport={{once: true}}
+                    >
+                    <Image src={Tailwind} alt='Next.js logo' height={40} width={40} />
                 </motion.div>
 
                 <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
@@ -60,7 +53,7 @@ export default function Skills() {
                     transition={{duration: 1.5}}
                     viewport={{once: true}}
                     >
-                    <Tailwind />
+                    <Image src={Vuejs} alt='Next.js logo' height={40} width={40} />
                 </motion.div>
 
                 <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
@@ -70,7 +63,7 @@ export default function Skills() {
                     transition={{duration: 1.5}}
                     viewport={{once: true}}
                     >
-                    <Vuejs />
+                    <Image src={Reactjs} alt='Next.js logo' height={40} width={40} />
                 </motion.div>
 
                 <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
@@ -80,7 +73,7 @@ export default function Skills() {
                     transition={{duration: 1.5}}
                     viewport={{once: true}}
                     >
-                    <Reactjs />
+                    <Image src={Js} alt='Next.js logo' height={40} width={40} />
                 </motion.div>
 
                 <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
@@ -90,7 +83,7 @@ export default function Skills() {
                     transition={{duration: 1.5}}
                     viewport={{once: true}}
                     >
-                    <Js />
+                    <Image src={Html5} alt='Next.js logo' height={40} width={40} />
                 </motion.div>
 
 
@@ -102,7 +95,7 @@ export default function Skills() {
                     transition={{duration: 1.5}}
                     viewport={{once: true}}
                     >
-                    <Html5 />
+                    <Image src={Css3} alt='Next.js logo' height={40} width={40} />
                 </motion.div>
 
                 <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
@@ -112,7 +105,7 @@ export default function Skills() {
                     transition={{duration: 1.5}}
                     viewport={{once: true}}
                     >
-                    <Css3 />
+                    <Image src={Csharp} alt='Next.js logo' height={40} width={40} />
                 </motion.div>
 
                 <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
@@ -122,7 +115,7 @@ export default function Skills() {
                     transition={{duration: 1.5}}
                     viewport={{once: true}}
                     >
-                    <Csharp />
+                    <Image src={Jquery} alt='Next.js logo' height={40} width={40} />
                 </motion.div>
 
                 <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
@@ -132,7 +125,7 @@ export default function Skills() {
                     transition={{duration: 1.5}}
                     viewport={{once: true}}
                     >
-                    <Jquery />
+                    <Image src={Bootstrap} alt='Next.js logo' height={40} width={40} />
                 </motion.div>
 
                 <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
@@ -142,19 +135,8 @@ export default function Skills() {
                     transition={{duration: 1.5}}
                     viewport={{once: true}}
                     >
-                    <Bootstrap />
+                    <Image src={Framer} alt='Next.js logo' height={40} width={40} />
                 </motion.div>
-
-                <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"
-                    whileHover={{scale: 0.9}}
-                    initial={{x:0, y:0, opacity: 0}}
-                    whileInView={{ x: "25vw", y: "15vw", opacity: 1 }}
-                    transition={{duration: 1.5}}
-                    viewport={{once: true}}
-                    >
-                    <Framer />
-                </motion.div>
-*/}
             </div>
         </>
     )
