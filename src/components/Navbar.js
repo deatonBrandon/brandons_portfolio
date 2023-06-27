@@ -51,16 +51,18 @@ export default function Navbar() {
     const handleClick = () => {
         setOpen(!open)
     }
- 
-    const changeBackground = () => {
-        if (window.scrollY >= 20) {
-            setNavbar(true)
-        } else {
-            setNavbar(false)
-        }
-    }
 
-    window.addEventListener('scroll', changeBackground)
+    useEffect( () => {
+
+        const changeBackground = () => {
+            if (scrollY >= 20) {
+                setNavbar(true)
+            } else {
+                setNavbar(false)
+            }
+        }
+        document.addEventListener("scroll", changeBackground)
+    }, [])
 
     return (
         <header>
