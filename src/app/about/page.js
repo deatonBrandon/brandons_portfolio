@@ -27,7 +27,7 @@ export default function page() {
                         To be fair, I was dedicating most of my energy into skateboarding and the upcoming soccer season.
                     </p>
                     <p className="my-4 font-medium">
-                         To this day, my passions outside of coding are in the mountain biking community. I am connected to local groups on Facebook and casually explore trails throughout the city. If it's not the ramps and tight corners that keep me there, it's the freedom of travel that makes this sport consistently fun. I'll even bring my GoPro to keep the memories alive! 
+                         To this day, my passions outside of coding are in the mountain biking community. I am connected to local groups on Facebook and casually explore trails throughout the city. If it&apos;s not the ramps and tight corners that keep me there, it is the freedom of travel that makes this sport consistently fun. I&apos;ll even bring my GoPro to keep the memories alive! 
                     </p>
                     <p className="font-medium">
                         Software development revealed itself after years of searching for enjoyment that is fulfilling, and the daily challenges that require creativity and functionality reinforces the love for this process.
