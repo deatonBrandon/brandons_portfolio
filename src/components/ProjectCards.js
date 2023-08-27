@@ -9,8 +9,8 @@ export default function ProjectCard({summary, title, type, img, link, github}) {
     return (
             <motion.section className="p-4 border-2 border-dark rounded-lg"
             initial={{ scale: 0.7, opacity: 0 }}
-            whileInView={{ scale: 1, opacity: 1 }}
             transition={{ type: "spring" }}
+            whileInView={{ scale: 1, opacity: 1 }}
             whileHover={{scale: 0.95}}
             whileTap={{scale: 0.95}}
             viewport={{ once: true }}

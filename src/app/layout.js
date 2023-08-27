@@ -2,6 +2,8 @@ import '@/styles/globals.css'
 import { Montserrat } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import Loading from './projects/loading'
+import { Suspense } from 'react'
 
 const monty = Montserrat({ subsets: ['latin'], variable: '--font-monty', })
 
@@ -24,6 +26,7 @@ export default function RootLayout({ children }) {
           <body className={`mt-20 dark:bg-[#4db1ff] dark:text-dark ${monty.variable} font-monty`}>
             <Navbar />
               <main>{children}</main>
+              <Suspense fallback={<Loading />} />
             <Footer />
           </body>
         </html>

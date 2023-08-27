@@ -19,18 +19,17 @@ export default function page() {
                 <div className="lg:col-span-3 col-span-4 text-center lg:text-left flex flex-col justify-start order-2 lg:order-none p-6 lg:p-0 antialiased">
                     <h2 className="mb-4 font-semibold lg:text-left text-dark/60">Believing is seeing...</h2>
                     <p className="font-medium">
-                        The man you are reading about did not dream of becoming a software dev when he was in middle school.
-                        There was only a kid having fun, devoting time into learning how to cop free movies and become the villain&apos;s worst nightmare in online shooters.
+                        The man you are reading about did not dream of becoming a software dev when he was little.
+                        There was only a kid having fun, devoting time into learning how to modify software so that I could add cool background themes to my Playstation Portable.
                         To be fair, I was dedicating most of my energy into skateboarding and the upcoming soccer season.
                     </p>
                     <p className="my-4 font-medium">
-                        Software development revealed itself, and the problem solving of creative/functional challenges helped me love the process.
-                        I believe design is about more than just making things look good - it runs deep in creating the intuitive, enjoyable experiences for the users.
-                        My process is a perpetual motion of planning to deployment, rippled in user trends and dateless functionality. 
+                         To this day, my passions outside of coding are in the mountain biking community. I am connected to local groups on Facebook and casually explore trails throughout the city. If it's not the ramps and tight corners that keep me there, it's the freedom of travel that makes this sport consistently fun. I'll even bring my GoPro to keep the memories alive! 
                     </p>
                     <p className="font-medium">
-                        Whether it is working on a website, mobile app, or other digital product, I bring my passion and commitment to design excellence and user-centered thinking
-                        to every project I work on. 
+                        Software development revealed itself after years of searching for enjoyment that is fulfilling, and the daily challenges that require creativity and functionality reinforces the love for this process.
+                        I believe design is about more than just making things look good - it runs deep in creating the intuitive, enjoyable experiences that users go after.
+                        My process is a perpetual motion of planning to deployment, rippled in user trends and dateless functionality that I hope to share with everyone.
                     </p>
             </div>
 
