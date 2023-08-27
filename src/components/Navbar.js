@@ -46,7 +46,6 @@ export default function Navbar() {
     const [mode, setMode] = useThemeSwitcher();
     const [open, setOpen] = useState(false);
     const [navbar, setNavbar] = useState(false)
-    const router = useRouter()
 
     const handleClick = () => {
         setOpen(!open)
@@ -90,27 +89,6 @@ export default function Navbar() {
                     <span className={`bg-black dark:bg-white block h-0.5 w-6 rounded-sm my-0.5 transition-all duration-200 ease-out ${open ? 'opacity-0' : 'opacity-100'}`}></span>
                     <span className={`bg-black dark:bg-white block h-0.5 w-6 rounded-sm transition-all duration-200 ease-out ${open ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
                 </button> 
-{/*                        
-                
-                <div className='w-full lg:flex justify-evenly items-center hidden'>
-                    <div className="w-full flex justify-end items-center">
-
-                        <div className="flex">
-                            <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                            className="mx-4"
-                            >
-                                {
-                                    mode === "dark" ?
-                                    <SunIcon className={"fill-black"} />
-                                    : <MoonIcon className={"fill-black"} />
-                                }
-                            </button>
-                            <CustomLink href="/projects" title='PROJECTS' className='mx-4 font-medium' />
-                            <CustomLink href="/about" title='ABOUT' className='mx-4 font-medium' />
-                        </div>
-                    </div>
-                </div>
-*/}
 
             </nav>
 

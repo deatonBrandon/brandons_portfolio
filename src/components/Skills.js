@@ -85,7 +85,7 @@ export default function Skills() {
                     transition={{duration: 1.5}}
                     viewport={{once: true}}
                     >
-                    <Image src={Css3} alt='Next.js logo' height={40} width={40} />
+                    <Image src={Css3} alt='Next.js logo' height={30} width={30} />
                 </motion.div>
 
                 <motion.div className="flex items-center justify-center rounded-full cursor-pointer absolute hover:animate-pulse"

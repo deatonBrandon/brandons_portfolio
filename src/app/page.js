@@ -2,13 +2,10 @@ import { RxArrowRight, RxOpenInNewWindow } from 'react-icons/rx'
 import Link from 'next/link'
 import AnimatedText from '@/components/AnimatedText'
 import HireMe from '@/components/HireMe'
-import TransitionEffect from '@/components/TransitionEffect'
-
 
 export default function Home() {
   return (
     <>
-    <TransitionEffect />
         <div className='w-[90%] mx-auto mt-60 lg:mt-80 z-10'>
 
             <AnimatedText text="Hello, my name is Brandon." />

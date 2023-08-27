@@ -4,12 +4,10 @@ import firstProject from '../../../public/firstsemesterproject.png'
 import jsPortfolio from '../../../public/jsportfolio.png'
 import vueProject from '../../../public/vueproject.png'
 import ProjectCard from "@/components/ProjectCards"
-import TransitionEffect from "@/components/TransitionEffect"
 
 export default function page() {
     return (
         <div>
-            <TransitionEffect />
             <main className='flex flex-col items-center justify-center'>
                 <AnimatedText text="practicality of the design" />
                 <div className="grid grid-cols-1 mx-12 lg:grid-cols-6 lg:grid-rows-2 lg:gap-16 mt-10 lg:mt-28">
