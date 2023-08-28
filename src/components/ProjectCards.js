@@ -10,7 +10,7 @@ export default function ProjectCard({summary, title, type, img, link, github}) {
         <>
             <motion.section className="p-4 border-2 border-dark rounded-lg"
             initial={{ scale: 0.8, opacity: 0.5 }}
-            transition={{ type: "bounce" }}
+            transition={{ type: "spring" }}
             whileInView={{ scale: 1, opacity: 1 }}
             whileHover={{scale: 0.95}}
             viewport={{ once: true }}
