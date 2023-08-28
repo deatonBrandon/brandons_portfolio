@@ -2,18 +2,17 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { LazyMotion, domAnimation, m} from 'framer-motion'
+import { motion } from 'framer-motion'
 import { GithubIcon } from "@/components/Icons"
 
 export default function ProjectCard({summary, title, type, img, link, github}) {
     return (
-        <LazyMotion features={domAnimation}>
-            <m.section className="p-4 border-2 border-dark rounded-lg"
-            initial={{ scale: 0.7, opacity: 0 }}
-            transition={{ type: "spring" }}
+        <>
+            <motion.section className="p-4 border-2 border-dark rounded-lg"
+            initial={{ scale: 0.8, opacity: 0.5 }}
+            transition={{ type: "bounce" }}
             whileInView={{ scale: 1, opacity: 1 }}
             whileHover={{scale: 0.95}}
-            whileTap={{scale: 0.95}}
             viewport={{ once: true }}
             >
                 <Link href={link} target="_blank" className="w-full cursor-pointer overflow-hidden">
@@ -29,7 +28,7 @@ export default function ProjectCard({summary, title, type, img, link, github}) {
                         <Link href={github} target="_blank" className="w-8"><GithubIcon/>{" "}</Link>
                     </div>
                 </div>
-            </m.section>
-        </LazyMotion>
+            </motion.section>
+        </>
     )
 }

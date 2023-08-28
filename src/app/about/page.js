@@ -17,7 +17,7 @@ export default function page() {
             <div className="lg:grid w-11/12 grid-cols-3 lg:grid-cols-6 gap-8 lg:gap-16 flex flex-col">
                 <motion.div
                 initial={{ scale: 0.7, opacity: 0 }}
-                transition={{delay: 0.3, type: "spring" }}
+                transition={{ type: "spring" }}
                 whileInView={{ scale: 1, opacity: 1 }}
                 className="lg:col-span-3 col-span-4 text-center lg:text-left flex flex-col justify-start order-2 lg:order-none p-6 lg:p-0 antialiased">
                     <h2 className="mb-4 font-semibold lg:text-left text-dark/60">Believing is seeing...</h2>
