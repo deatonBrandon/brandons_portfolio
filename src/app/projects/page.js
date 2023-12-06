@@ -23,7 +23,7 @@ export default function page() {
                     </div>
                     <div className="lg:col-span-2 my-4 lg:my-0">
                         <ProjectCard
-                            summary="Vue.js (front-end) app demonstrating a basic understanding."
+                            summary="Vue.js (front-end) app demonstrating a basic understanding of client-side programming."
                             title="Vue project"
                             img={vueProject}
                             link="https://codesandbox.io/s/vue-final-final-er3s35?file=/src/App.vue"
