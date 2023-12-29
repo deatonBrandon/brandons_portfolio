@@ -1,5 +1,5 @@
 import AnimatedText from "@/components/AnimatedText"
-import nextJsBlog from "../../../public/nextjsblog.png"
+import bbManager from "../../../public/bbManager.png"
 import firstProject from '../../../public/firstsemesterproject.png'
 import jsPortfolio from '../../../public/jsportfolio.png'
 import vueProject from '../../../public/vueproject.png'
@@ -13,17 +13,17 @@ export default function page() {
                 <div className="grid grid-cols-1 mx-12 lg:grid-cols-6 lg:grid-rows-2 lg:gap-16 mt-10 lg:mt-28">
                     <div className="lg:col-start-2 lg:col-span-2">
                         <ProjectCard
-                            summary="Full-stack React/Next.js blog hosted through Vercel."
-                            title="LinkedIn Learning Next.js/Vercel Blog App"
-                            img={nextJsBlog}
-                            link="https://nextjs-blog-enjoi93.vercel.app/"
-                            github="https://github.com/enjoi93/nextjs-blog"
-                            type="Next.js | Vercel | JavaScript"
+                            summary="Baseball management app that saves and edits players in a sqlite database."
+                            title="Baseball manager application"
+                            img={bbManager}
+                            link="https://github.com/enjoi93/python_projects.github.io/tree/main/baseball_mgr"
+                            github="https://github.com/enjoi93/python_projects.github.io/tree/main/baseball_mgr"
+                            type="Python | SQLite3 | TKinter"
                         />
                     </div>
                     <div className="lg:col-span-2 my-4 lg:my-0">
                         <ProjectCard
-                            summary="Vue.js (front-end) app demonstrating a basic understanding."
+                            summary="Vue.js (front-end) app demonstrating a basic understanding of client-side programming."
                             title="Vue project"
                             img={vueProject}
                             link="https://codesandbox.io/s/vue-final-final-er3s35?file=/src/App.vue"

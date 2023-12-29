@@ -55,7 +55,7 @@ export default function Education() {
 
                     <ul className="w-full flex flex-col items-start justify-between ml-4 mb-15">
                         <Details
-                            type="Associate of Applied Sciences" time="2022 - Present" place="College of Western Idaho" info="Relevant Coursework: System Analysis and Design, Client/Server-Side Frameworks, Object-Oriented Programming, Data Structures. Certified as an I.T specialist in HTML5 app development. "                   
+                            type="Associate of Applied Sciences" time="2022 - Present" place="College of Western Idaho" info="Relevant Coursework: System Analysis and Design, Client/Server-Side Frameworks, Object-Oriented Programming, Data Structures. Certified through PearsonVue in HTML5 app development, Python, and SQL Databases. "                   
                         />
                         <Details
                             type="High School Diploma" time="2007 - 2011" place="Cherry Creek High School" info="Relevant Coursework: Intro to Trigonometry"                   
