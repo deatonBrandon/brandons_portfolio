@@ -12,7 +12,7 @@ export default function Home() {
             <p className="text-lg font-semibold pt-5 pb-5 text-center">I am a software developer devoted to creating &apos;pixel-perfect&apos; user experiences.</p>
             <Link href="/projects" className="hidden md:flex justify-center py-7 font-semibold cursor-pointer group">Feel free to browse the projects<RxArrowRight className="transform transition duration-300 group-hover:translate-x-4 h-6"/></Link>
             <div className='flex items-center justify-center my-10 lg:my-0 lg:mt-10'>
-              <Link href="/Resume (1).pdf" target={"_blank"} 
+              <Link href="/Resume.pdf" target={"_blank"} 
               className='flex items-center bg-dark dark:bg-[#4db1ff] text-light p-1.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark dark:hover:text-light border-2 border-transparent transform transition duration-300 hover:border-dark dark:border-light hover:scale-95'>
                 Resume<RxOpenInNewWindow className='w-6 ml-1'/>
               </Link>
