@@ -1,6 +1,6 @@
 import AnimatedText from "@/components/AnimatedText"
 import bbManager from "../../../public/bbManager.png"
-import firstProject from '../../../public/firstsemesterproject.png'
+import degreeMgr from '../../../public/datacleaning.png'
 import jsPortfolio from '../../../public/jsportfolio.png'
 import vueProject from '../../../public/vueproject.png'
 import ProjectCard from "@/components/ProjectCards"
@@ -43,12 +43,12 @@ export default function page() {
                     </div>
                     <div className="lg:row-start-2 lg:col-start-4 lg:col-span-2">
                         <ProjectCard
-                            summary="The first school project to display basic HTML & CSS knowledge."
-                            title="1st semester project"
-                            img={firstProject}
-                            link="https://enjoi93.github.io/portfolio/index.html"
-                            github="https://github.com/enjoi93/firstproject"
-                            type="HTML5 | CSS3"
+                            summary="This program takes specific .csv files from HandShake to reorganize and create anew."
+                            title="Project for Work-based Learning Center, CWI"
+                            img={degreeMgr}
+                            link="https://github.com/enjoi93/DegreeManager/blob/main/automateCSV.py"
+                            github="https://github.com/enjoi93/DegreeManager"
+                            type="Python | Pandas"
                         />
                     </div>
                 </div>
