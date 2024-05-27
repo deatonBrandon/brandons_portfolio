@@ -16,7 +16,7 @@ export default function ProjectCard({summary, title, type, img, link, github}) {
             viewport={{ once: true }}
             >
                 <Link href={link} target="_blank" className="w-full cursor-pointer overflow-hidden">
-                    <Image priority src={img} alt={title} className="w-52 h-52 mx-auto lg:mx-0 lg:w-full lg:h-52 rounded-lg drop-shadow-lg" />
+                    <Image priority src={img} alt={title} className="w-52 h-52 mx-auto lg:mx-0 lg:w-60 lg:h-52 rounded-lg drop-shadow-lg" />
                 </Link>
                 <div className="w-full flex flex-col items-center justify-between mt-4 text-center">
                     <span className="w-full text-blue-400/75 dark:text-light font-medium lg:text-xl">{type}</span>
