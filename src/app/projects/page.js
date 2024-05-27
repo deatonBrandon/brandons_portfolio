@@ -1,7 +1,7 @@
 import AnimatedText from "@/components/AnimatedText"
 import bbManager from "../../../public/bbManager.png"
 import degreeMgr from '../../../public/datacleaning.png'
-import jsPortfolio from '../../../public/jsportfolio.png'
+import capstoneProject from '../../../public/CapstoneScrumProject.png'
 import vueProject from '../../../public/vueproject.png'
 import ProjectCard from "@/components/ProjectCards"
 
@@ -23,8 +23,8 @@ export default function page() {
                     </div>
                     <div className="lg:col-span-2 my-4 lg:my-0">
                         <ProjectCard
-                            summary="Vue.js (front-end) app demonstrating a basic understanding of client-side programming."
-                            title="Vue project"
+                            summary=".NET MAUI final project with json data integration"
+                            title=".NET MAUI project"
                             img={vueProject}
                             link="https://codesandbox.io/s/vue-final-final-er3s35?file=/src/App.vue"
                             github="https://github.com/enjoi93/vueProject"
@@ -33,12 +33,12 @@ export default function page() {
                     </div>
                     <div className="lg:row-start-2 lg:col-start-2 lg:col-span-2 mb-4 lg:mb-0">
                         <ProjectCard
-                            summary="This portfolio displays 3rd party animations and responsive web design."
-                            title="1st big project"
-                            img={jsPortfolio}
-                            link="https://enjoi93.github.io/jsPortfolio/index.html"
-                            github="https://github.com/enjoi93/JSPortfolio"
-                            type="JavaScript | jQuery"
+                            summary="Capstone class project developed using modern scrum management"
+                            title="Capstone Project"
+                            img={capstoneProject}
+                            link="https://github.com/robbysabo/SWDV280CapstoneProject/tree/main/ScrumProject"
+                            github="https://github.com/robbysabo/SWDV280CapstoneProject/tree/main/ScrumProject"
+                            type="ASP.NET MVC | SQL"
                         />
                     </div>
                     <div className="lg:row-start-2 lg:col-start-4 lg:col-span-2">
