@@ -2,7 +2,7 @@ import AnimatedText from "@/components/AnimatedText"
 import bbManager from "../../../public/bbManager.png"
 import degreeMgr from '../../../public/datacleaning.png'
 import capstoneProject from '../../../public/CapstoneScrumProject.png'
-import vueProject from '../../../public/vueproject.png'
+import usedCars from '../../../public/usedcars.png'
 import ProjectCard from "@/components/ProjectCards"
 
 export default function page() {
@@ -23,12 +23,12 @@ export default function page() {
                     </div>
                     <div className="lg:col-span-2 my-4 lg:my-0">
                         <ProjectCard
-                            summary=".NET MAUI final project with json data integration"
+                            summary=".NET MAUI full-stack final project using Apache with json data fetching."
                             title=".NET MAUI project"
-                            img={vueProject}
-                            link="https://codesandbox.io/s/vue-final-final-er3s35?file=/src/App.vue"
-                            github="https://github.com/enjoi93/vueProject"
-                            type="Vue.js"
+                            img={usedCars}
+                            link="https://github.com/deatonBrandon/UsedCarsFinalProject"
+                            github="https://github.com/deatonBrandon/UsedCarsFinalProject"
+                            type=".NET MAUI MVC"
                         />
                     </div>
                     <div className="lg:row-start-2 lg:col-start-2 lg:col-span-2 mb-4 lg:mb-0">
