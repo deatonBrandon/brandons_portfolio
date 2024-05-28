@@ -2,7 +2,6 @@
 
 import { useScroll, motion } from 'framer-motion'
 import { useRef } from 'react'
-import Link from 'next/link'
 
 const Details = ({position, company, url, time, address, work}) => {
     return (
@@ -32,7 +31,7 @@ export default function Experience() {
     const { scrollYProgress } = useScroll(
         {
             target: ref,
-            offset: ["start end", "center start"]
+            offset: ["start end", "start start"]
         }
     )
 
@@ -49,22 +48,24 @@ export default function Experience() {
 
             <div ref={ref} className="w-[75%] mx-auto relative">
 
-                <motion.div
-                style={{scaleY: scrollYProgress}}
-                className="absolute left-9 top-1 w-[4px] h-full bg-black origin-top" />
+                <motion.div style={{scaleY: scrollYProgress}} className="absolute left-9 top-1 w-[4px] h-full bg-black dark:bg-light origin-top" />
 
                     <ul className="w-full flex flex-col items-start justify-between ml-4">
                         <Details
-                            position="Career Technical Education Ambassador" company="CWI" url='https://cwi.edu/' time="2022 - Present" address="Nampa, ID" work="Working in a small team to provide insight and assistance of entering CTE vocations such as HVAC, Automotive, etc. to dual
-                            credit/high school students. Provide full range of services, includes event hosting, event scheduling, B2P data logging via
-                            Insightly, and service marketing."                        
+                            position="Software Development Tutor" company="CWI" url='https://cwi.edu/' time="Jan. 2024 - May 2024" address="Nampa, ID" work="Position offered through a recommendation by the 2nd year professor.
+                            Helped tutor a class of 19 students learn the fundamentals of C#/Windows Forms and web development using HTML5/CSS3.
+                            Skilled in collaborating with the teacher to find more effective ways to communicate concepts and code."                        
                         />
                         <Details
-                            position="Project Manager" company="Final Mile Solar" url='https://www.finalmilesolar.com/' time="2019 - 2022" address="Arlington, TX" work="Inhouse & field management. Responsible for training, route scheduling, and client relations."
+                            position="Web Designer" company="MindHome" url='https://www.mindhome.co/' time="May 2023 - Aug. 2023" address="Remote" work="Collaborated with a team of 3 to create web layouts and creative designs through Figma and transferred to builder.io (standard HTML).
+                            Acquired methodical experience in the agile development cycle.
+                            Developed skill and knowledge in designing two core web pages, -Service Home- and -Smart Home-, hosted on the official site:
+                            mindhome.co."
                         />
                         <Details
-                            position="Web Developer Intern" company="MindHome" url='https://www.mindhome.co/' time="2022 - 2023" address="Remote" work="Assisted with web design and prepared prototypes to be
-                            hosted on the official site"
+                            position="Project Manager" company="Final Mile Solar" url='https://www.finalmilesolar.com/' time="Sept. 2019 - Jan. 2022" address="Arlington, TX" work="Provided exemplary customer and client satisfaction through open communication and safety-first services handling solar panel deliveries.
+                            Obtained comprehensive experience in managing, training, warehousing, communication, DEI.
+                            Skilled in field training, planning, coordinating, and executing all aspects of the delivery process."
                         />
                     </ul>
             </div>

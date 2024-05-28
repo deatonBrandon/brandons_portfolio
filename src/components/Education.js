@@ -6,7 +6,7 @@ import { useRef } from 'react'
 const Details = ({ type, time, place, info}) => {
     const ref = useRef(null)
     return (
-        <li ref={ref} className="first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col">
+        <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col">
 
             <motion.div
             initial={{y: 50, opacity: 0}}
@@ -18,7 +18,7 @@ const Details = ({ type, time, place, info}) => {
                 <span className="capitalize font-medium text-black/75 dark:text-white">
                     {time} | {place}
                 </span>
-                <p className="font-medium text-sm lg:text-base w-full mb-20">
+                <p className="font-medium text-sm lg:text-base w-full">
                     {info}
                 </p>
 
@@ -32,7 +32,7 @@ export default function Education() {
     const { scrollYProgress } = useScroll(
         {
             target: ref,
-            offset: ["start end", "end center"]
+            offset: ["start end", "start center"]
         }
     )
 
@@ -49,16 +49,14 @@ export default function Education() {
 
             <div ref={ref} className="w-[75%] mx-auto relative">
 
-                <motion.div
-                style={{scaleY: scrollYProgress}}
-                className="absolute left-9 top-1 w-[4px] h-full bg-black origin-top" />
+                <motion.div style={{scaleY: scrollYProgress}} className="absolute left-9 top-1 w-[4px] h-full bg-black dark:bg-light origin-top" />
 
-                    <ul className="w-full flex flex-col items-start justify-between ml-4 mb-15">
+                    <ul className="w-full flex flex-col items-start justify-between ml-4">
                         <Details
-                            type="Associate of Applied Sciences" time="2022 - Present" place="College of Western Idaho" info="Relevant Coursework: System Analysis and Design, Client/Server-Side Frameworks, Object-Oriented Programming, Data Structures. Certified through PearsonVue in HTML5 app development, Python, and SQL Databases. "                   
+                            type="Associate of Applied Sciences" time="2022 - 2024" place="College of Western Idaho" info="System Analysis and Design, Client/Server-Side Frameworks, Object-Oriented Programming, Data Structures. Certified through PearsonVue in HTML5 app development, Python, and SQL Databases."                   
                         />
                         <Details
-                            type="High School Diploma" time="2007 - 2011" place="Cherry Creek High School" info="Relevant Coursework: Intro to Trigonometry"                   
+                            type="High School Diploma" time="2007 - 2011" place="Cherry Creek High School" info="Intro to Trigonometry. Elective in AutoCAD. Team sports."                   
                         />
                     </ul>
 

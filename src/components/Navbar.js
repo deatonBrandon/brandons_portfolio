@@ -65,8 +65,8 @@ export default function Navbar() {
 
     return (
         <header>
-            <nav className={`fixed top-0 left-0 z-10 flex w-full filter backdrop-blur-lg dark:text-[#191835] px-10 py-2 items-center transition-all duration-300 ease-in-out
-            ${navbar ? 'bg-light dark:bg-[#3192DE]' : null}
+            <nav className={`fixed top-0 left-0 z-10 flex w-full filter backdrop-blur-lg dark:text-light px-10 py-2 items-center transition-all duration-300 ease-in-out
+            ${navbar ? 'bg-light/95 dark:bg-[#101929]/95 backdrop-blur-sm' : null}
             `}>
 
                 <div className='w-full flex justify-start'>

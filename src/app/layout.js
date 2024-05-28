@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 
   return (
         <html lang="en">
-          <body className={`mt-20 dark:bg-[#4db1ff] dark:text-dark ${monty.variable} font-monty`}>
+          <body className={`mt-20 dark:bg-[#142036] dark:text-light ${monty.variable} font-monty`}>
             <Navbar />
               <main>{children}</main>
             <Footer />

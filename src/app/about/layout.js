@@ -9,7 +9,7 @@ export default function RootLayout({children}) {
     // offset navbar height
     return (
         <>
-          <main className='mt-20 dark:bg-[#4db1ff] dark:text-dark'>{children}</main>          
+          <main className='mt-20 dark:bg-[#142036] dark:text-light'>{children}</main>          
         </>
     )
       

@@ -23,7 +23,7 @@ export default function page() {
                     </div>
                     <div className="lg:col-span-2 my-4 lg:my-0">
                         <ProjectCard
-                            summary=".NET MAUI full-stack final project using Apache with json data fetching."
+                            summary=".NET MAUI full-stack final project using Apache server with json data fetching."
                             title=".NET MAUI project"
                             img={usedCars}
                             link="https://github.com/deatonBrandon/UsedCarsFinalProject"
@@ -33,7 +33,7 @@ export default function page() {
                     </div>
                     <div className="lg:row-start-2 lg:col-start-2 lg:col-span-2 mb-4 lg:mb-0">
                         <ProjectCard
-                            summary="Capstone class project developed using modern scrum management"
+                            summary="Capstone class project developed using modern scrum management practices."
                             title="Capstone Project"
                             img={capstoneProject}
                             link="https://github.com/robbysabo/SWDV280CapstoneProject/tree/main/ScrumProject"
@@ -48,7 +48,7 @@ export default function page() {
                             img={degreeMgr}
                             link="https://github.com/enjoi93/DegreeManager/blob/main/automateCSV.py"
                             github="https://github.com/enjoi93/DegreeManager"
-                            type="Python | Pandas"
+                            type="Python | Pandas.py"
                         />
                     </div>
                 </div>

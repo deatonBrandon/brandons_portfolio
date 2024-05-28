@@ -8,7 +8,7 @@ import { GithubIcon } from "@/components/Icons"
 export default function ProjectCard({summary, title, type, img, link, github}) {
     return (
         <>
-            <motion.section className="p-4 border-2 border-dark rounded-lg"
+            <motion.section className="p-4 border-2 border-dark dark:border-light rounded-lg"
             initial={{ scale: 0.8, opacity: 0.5 }}
             transition={{ type: "spring" }}
             whileInView={{ scale: 1, opacity: 1 }}
@@ -16,7 +16,7 @@ export default function ProjectCard({summary, title, type, img, link, github}) {
             viewport={{ once: true }}
             >
                 <Link href={link} target="_blank" className="w-full cursor-pointer overflow-hidden">
-                    <Image priority src={img} alt={title} className="w-52 h-52 mx-auto lg:w-60 lg:h-52 rounded-lg drop-shadow-lg" />
+                    <Image priority src={img} alt={title} className="w-60 h-52 mx-auto lg:w-72 lg:h-60 rounded-lg drop-shadow-lg" />
                 </Link>
                 <div className="w-full flex flex-col items-center justify-between mt-4 text-center">
                     <span className="w-full text-blue-400/75 dark:text-light font-medium lg:text-xl">{type}</span>
