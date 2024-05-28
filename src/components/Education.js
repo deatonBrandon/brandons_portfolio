@@ -53,10 +53,16 @@ export default function Education() {
 
                     <ul className="w-full flex flex-col items-start justify-between ml-4">
                         <Details
-                            type="Associate of Applied Sciences" time="2022 - 2024" place="College of Western Idaho" info="System Analysis and Design, Client/Server-Side Frameworks, Object-Oriented Programming, Data Structures. Certified through PearsonVue in HTML5 app development, Python, and SQL Databases."                   
+                            type="Associate of Applied Sciences" time="2022 - 2024" place="College of Western Idaho" info="Client-Side Frameworks - Comprehensive application of client-side scripting tech and frameworks. Emphasis is placed on creating UI and
+                            connecting software components (ReactJS, VueJS, Vite, Svelte).
+                            Collaborative Development - Class introduction to formal test strategies, collaborative tools, and project management. Our capstone
+                            project was developed using modern scrum practices (Jira - project mgmt., ASP.NET MVC, SQL Server). I played the role of UI/UX designer
+                            that served as a color palette and layout standard across the website.
+                            Advanced Web App Development - Exploring dynamic websites focusing on e-commerce and server-side scripting (SQL Server, SQLite3,
+                            and ASP.NET Core MVC)."                   
                         />
                         <Details
-                            type="High School Diploma" time="2007 - 2011" place="Cherry Creek High School" info="Intro to Trigonometry. Elective in AutoCAD. Team sports."                   
+                            type="High School Diploma" time="2007 - 2011" place="Cherry Creek High School" info="Elective in AutoCAD. Team sports - soccer, right midfield."               
                         />
                     </ul>
 

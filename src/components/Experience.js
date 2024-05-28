@@ -53,17 +53,21 @@ export default function Experience() {
                     <ul className="w-full flex flex-col items-start justify-between ml-4">
                         <Details
                             position="Software Development Tutor" company="CWI" url='https://cwi.edu/' time="Jan. 2024 - May 2024" address="Nampa, ID" work="Position offered through a recommendation by the 2nd year professor.
-                            Helped tutor a class of 19 students learn the fundamentals of C#/Windows Forms and web development using HTML5/CSS3.
-                            Skilled in collaborating with the teacher to find more effective ways to communicate concepts and code."                        
+                            Helped tutor a class of 19 students learn the fundamentals of OOP with C#/Windows Forms and web development using HTML5/CSS3.
+                            Obtained skill in collaboration and communication to find more effective ways to communicate concepts and code."                        
                         />
                         <Details
-                            position="Web Designer" company="MindHome" url='https://www.mindhome.co/' time="May 2023 - Aug. 2023" address="Remote" work="Collaborated with a team of 3 to create web layouts and creative designs through Figma and transferred to builder.io (standard HTML).
+                            position="Web Designer" company="MindHome" url='https://www.mindhome.co/pages/smarthomeusl' time="May 2023 - Aug. 2023" address="Remote" work="Collaborated with a team of 3 to create web layouts and creative designs through Figma and transferred to builder.io (standard HTML).
                             Acquired methodical experience in the agile development cycle.
                             Developed skill and knowledge in designing two core web pages, -Service Home- and -Smart Home-, hosted on the official site:
                             mindhome.co."
                         />
                         <Details
-                            position="Project Manager" company="Final Mile Solar" url='https://www.finalmilesolar.com/' time="Sept. 2019 - Jan. 2022" address="Arlington, TX" work="Provided exemplary customer and client satisfaction through open communication and safety-first services handling solar panel deliveries.
+                            position="Freelance Wordpress Developer" company="Clearlight Infrared Saunas" url="https://infraredsauna.com/heater-kits-build-your-own-diy-sauna/" time="Jan. 2023 - Jan. 2023" address="Remote" work="Built an upload feature for users to submit their own measurements to the custom design team using JavaScript and HTML.
+                            Researched and implemented best practices for JavaScript development.
+                            Handled testing for the entire project and guaranteed 100% functionality." />
+                        <Details
+                            position="Branch Manager" company="Final Mile Solar" url='https://www.finalmilesolar.com/' time="Sept. 2019 - Jan. 2022" address="Arlington, TX" work="Provided exemplary customer and client satisfaction through open communication and safety-first services handling solar panel deliveries.
                             Obtained comprehensive experience in managing, training, warehousing, communication, DEI.
                             Skilled in field training, planning, coordinating, and executing all aspects of the delivery process."
                         />

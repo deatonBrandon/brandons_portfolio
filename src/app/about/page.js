@@ -12,7 +12,7 @@ export default function page() {
         <>
         <main className="w-full flex flex-col items-center justify-center">
             
-            <AnimatedText text="freedom equals mindset" className="mb-16"/>
+            <AnimatedText text="my greatest journey" className="mb-16"/>
 
             <div className="lg:grid w-11/12 grid-cols-3 lg:grid-cols-6 gap-8 lg:gap-16 flex flex-col">
                 <motion.div
@@ -24,16 +24,16 @@ export default function page() {
                     <h2 className="mb-4 font-semibold lg:text-left text-dark/60">Believing is seeing...</h2>
                     <p className="font-medium">
                         The man you are reading about did not dream of becoming a software dev when he was little.
-                        There was only a kid having fun, devoting time into learning how to modify software so that I could add cool background themes to my Playstation Portable.
+                        There was only a kid having fun, devoting time to learn how to modify software so that I could add cool unrelatable themes to my Playstation Portable (like the xbox boot animation).
                         To be fair, I was dedicating most of my energy into skateboarding and the upcoming soccer season.
                     </p>
                     <p className="my-4 font-medium">
-                         To this day, my passions outside of coding are in the mountain biking community. I am connected to local groups on Facebook and casually explore trails throughout the city. If it&apos;s not the ramps and tight corners that keep me there, it is the freedom of travel that makes this sport consistently fun. I&apos;ll even bring my GoPro to keep the memories alive! 
+                        Software development revealed itself after a decade of searching for that fulfilling career, with daily challenges requiring creativity and solutions strengthening the love for this cycle.
+                        I believe design is about more than just making things look good - it runs deep in creating the intuitive, enjoyable experiences that users go after and stick around for.
+                        My process is a fluent, perpetual motion of planning to deployment, rippled in user trends and dateless functionality that I consistently improve to share with everyone.
                     </p>
                     <p className="font-medium">
-                        Software development revealed itself after years of searching for enjoyment that is fulfilling, and the daily challenges that require creativity and functionality reinforces the love for this process.
-                        I believe design is about more than just making things look good - it runs deep in creating the intuitive, enjoyable experiences that users go after.
-                        My process is a perpetual motion of planning to deployment, rippled in user trends and dateless functionality that I hope to share with everyone.
+                         When I get time to myself outside of coding, my favorite hobby is mountain biking. I am connected to local groups on Facebook and casually explore trails throughout the city. If it&apos;s not the ramps and tight corners that keep me there, it is the freedom of travel that makes this sport consistently fun. I&apos;ll even bring my GoPro to keep the memories alive! 
                     </p>
                 </motion.div>
 
