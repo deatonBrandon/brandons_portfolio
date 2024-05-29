@@ -42,7 +42,7 @@ export default function Experience() {
             whileInView={{y: 0, opacity: 1}}
             viewport={{once: true, amount: 0.8}}
             transition={{duration: 1}}
-            className="font-bold text-6xl md:text-8xl mb-32 w-full text-center">
+            className="font-bold text-6xl lg:text-8xl mb-32 w-full text-center">
                 Experience
             </motion.h2>
 
