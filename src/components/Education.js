@@ -53,6 +53,12 @@ export default function Education() {
 
                     <ul className="w-full flex flex-col items-start justify-between ml-4">
                         <Details
+                            type="Google Cybersecurity Certificate" time="2024" place="Coursera" info="Develop essential skills to protect devices, networks, and data using SIEM tools. 
+                            Advance my knowledge in SQL, Python, and Linux using isolated environments. 
+                            Learn to identify common threats, risks, and vulnerabilities and techniques to mitigate them. 
+                            Understand of the importance of cybersecurity practices and their impact on organizations."
+                        />
+                        <Details
                             type="Associate of Applied Sciences" time="2022 - 2024" place="College of Western Idaho" info="Client-Side Frameworks - Comprehensive application of client-side scripting tech and frameworks. Emphasis is placed on creating UI and
                             connecting software components (ReactJS, VueJS, Vite, Svelte).
                             Collaborative Development - Class introduction to formal test strategies, collaborative tools, and project management. Our capstone
