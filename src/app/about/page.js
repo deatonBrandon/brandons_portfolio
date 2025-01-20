@@ -21,19 +21,14 @@ export default function page() {
                 whileInView={{ scale: 1, opacity: 1 }}
                 viewport={{once: true}}
                 className="lg:col-span-3 col-span-4 text-center lg:text-left flex flex-col justify-start order-2 lg:order-none p-6 lg:p-0 antialiased">
-                    <h2 className="mb-4 font-semibold lg:text-left text-dark/60">Believing is seeing...</h2>
+                    <h2 className="mb-4 font-semibold lg:text-left text-dark/60">Driven To Secure</h2>
                     <p className="font-medium">
-                        The man you are reading about did not dream of becoming a software dev when he was little.
-                        There was only a kid having fun, devoting time to learn how to modify software so that I could add cool unrelatable themes to my Playstation Portable (like the xbox boot animation).
-                        To be fair, I was dedicating most of my energy into skateboarding and the upcoming soccer season.
-                    </p>
-                    <p className="my-4 font-medium">
-                        Software development revealed itself after a decade of searching for that fulfilling career, with daily challenges requiring creativity and solutions strengthening the love for this cycle.
-                        I believe design is about more than just making things look good - it runs deep in creating the intuitive, enjoyable experiences that users go after and stick around for.
-                        My process is a fluent, perpetual motion of planning to deployment, rippled in user trends and dateless functionality that I consistently improve to share with everyone.
-                    </p>
-                    <p className="font-medium">
-                         When I get time to myself outside of coding, my favorite hobby is mountain biking. I am connected to local groups on Facebook and casually explore trails throughout the city. If it&apos;s not the ramps and tight corners that keep me there, it is the freedom of travel that makes this sport consistently fun. I&apos;ll even bring my GoPro to keep the memories alive! 
+                        Hi!<br/>Thank you for checking out my portfolio. I'm super grateful you're diving deeper into my work. Two things about me:
+                        troubleshooting I.T. and helping people make up a lot of who I am. My educational experience in computers begins much further back from college, towards the beginning of middle school when I was gifted a children's
+                        STEM kit with the fun lil' lights and switches. Soon after I was gifted a PSP, where I learned how to downgrade firmware and exploit it to do things like boot up as an xbox 360. 
+                        As of late, I consider myself "mature" and spend my time on more practical knowledge like applying best security practices for my family's lan 
+                        One trait you can expect to see from me is my consistent willingness to learn. I rarely get bored in this world, but when I'm in between projects or feeling impartial, I have an 
+                        adventurous side and a musical side that recharges me. It's all about balance, after all.
                     </p>
                 </motion.div>
 

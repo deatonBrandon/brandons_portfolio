@@ -1,4 +1,5 @@
 import '@/styles/globals.css'
+import { Analytics } from "@vercel/analytics/react"
 import { Montserrat } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -23,7 +24,10 @@ export default function RootLayout({ children }) {
         <html lang="en">
           <body className={`mt-20 dark:bg-[#142036] dark:text-light ${monty.variable} font-monty`}>
             <Navbar />
-              <main>{children}</main>
+              <main>
+                {children}
+                <Analytics />
+              </main>
             <Footer />
           </body>
         </html>
