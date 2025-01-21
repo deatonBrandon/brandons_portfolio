@@ -23,10 +23,13 @@ export default function page() {
                 className="lg:col-span-3 col-span-4 text-center lg:text-left flex flex-col justify-start order-2 lg:order-none p-6 lg:p-0 antialiased">
                     <h2 className="mb-4 font-semibold lg:text-left text-dark/60">Driven To Secure</h2>
                     <p className="font-medium">
-                        Hi!<br/>Thank you for checking out my portfolio. I'm super grateful you're diving deeper into my work. Two things about me:
+                        Hi!<br/>&nbsp;&nbsp;&nbsp;&nbsp;Thank you for checking out my portfolio. I'm super grateful you're diving deeper into my work. Two things about me:
                         troubleshooting I.T. and helping people make up a lot of who I am. My educational experience in computers begins much further back from college, 
                         towards the beginning of middle school when I was gifted a children's STEM kit with the fun lil' lights and switches. Soon after I was gifted a PSP, where I 
-                        learned how to downgrade firmware and exploit it to do things like boot up as an xbox 360. As of late, I consider myself to be "matured" and spend my 
+                        learned how to downgrade firmware and exploit it to do things like boot up as an xbox 360.
+                    </p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;As of late, I consider myself to be "matured" and spend my 
                         time gaining practical knowledge like applying best security practices to my family's lan, committing to earning CompTIA's certificates, and lastly spending 
                         quality time on hackthebox.com to advance my understanding of how actors find their way into private networks. One trait you can expect to see from me is my 
                         consistent willingness to learn. My lack of work experience brought me to Google's Cybersecurity certificate and that's where I found that I.T. is the place for me.
