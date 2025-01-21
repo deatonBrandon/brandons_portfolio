@@ -24,11 +24,13 @@ export default function page() {
                     <h2 className="mb-4 font-semibold lg:text-left text-dark/60">Driven To Secure</h2>
                     <p className="font-medium">
                         Hi!<br/>Thank you for checking out my portfolio. I'm super grateful you're diving deeper into my work. Two things about me:
-                        troubleshooting I.T. and helping people make up a lot of who I am. My educational experience in computers begins much further back from college, towards the beginning of middle school when I was gifted a children's
-                        STEM kit with the fun lil' lights and switches. Soon after I was gifted a PSP, where I learned how to downgrade firmware and exploit it to do things like boot up as an xbox 360. 
-                        As of late, I consider myself "mature" and spend my time on more practical knowledge like applying best security practices for my family's lan 
-                        One trait you can expect to see from me is my consistent willingness to learn. I rarely get bored in this world, but when I'm in between projects or feeling impartial, I have an 
-                        adventurous side and a musical side that recharges me. It's all about balance, after all.
+                        troubleshooting I.T. and helping people make up a lot of who I am. My educational experience in computers begins much further back from college, 
+                        towards the beginning of middle school when I was gifted a children's STEM kit with the fun lil' lights and switches. Soon after I was gifted a PSP, where I 
+                        learned how to downgrade firmware and exploit it to do things like boot up as an xbox 360. As of late, I consider myself to be "matured" and spend my 
+                        time gaining practical knowledge like applying best security practices to my family's lan, committing to earning CompTIA's certificates, and lastly spending 
+                        quality time on hackthebox.com to advance my understanding of how actors find their way into private networks. One trait you can expect to see from me is my 
+                        consistent willingness to learn. My lack of work experience brought me to Google's Cybersecurity certificate and that's where I found that I.T. is the place for me.
+                        I rarely get bored in this world, but when I'm in between projects or feeling impartial, I have an adventurous side and a musical side that recharges me. It's all about balance, after all.
                     </p>
                 </motion.div>
 
