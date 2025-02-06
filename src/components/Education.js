@@ -3,7 +3,7 @@
 import { useScroll, motion } from 'framer-motion'
 import { useRef } from 'react'
 
-const Details = ({ type, time, place, info}) => {
+const Details = ({ type, time, place = "", info = ""}) => {
     const ref = useRef(null)
     return (
         <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col">
@@ -53,7 +53,7 @@ export default function Education() {
 
                     <ul className="w-full flex flex-col items-start justify-between ml-4">
                         <Details
-                            type="Google Cybersecurity Certificate" time="2024" place="Coursera" info="Develop essential skills to protect devices, networks, and data using SIEM tools. 
+                            type="Google Cybersecurity Certificate" time="2024" place="www.coursera.org" info="Develop essential skills to protect devices, networks, and data using SIEM tools. 
                             Advance my knowledge in SQL, Python, and Linux using isolated environments. 
                             Learn to identify common threats, risks, and vulnerabilities and techniques to mitigate them. 
                             Understand of the importance of cybersecurity practices and their impact on organizations."
@@ -68,7 +68,7 @@ export default function Education() {
                             and ASP.NET Core MVC)."                   
                         />
                         <Details
-                            type="High School Diploma" time="2007 - 2011" place="Cherry Creek High School" info="Elective in AutoCAD. Team sports - soccer, right midfield."               
+                            type="High School Diploma" time="2007 - 2011" place="Cherry Creek High School"               
                         />
                     </ul>
 

@@ -51,6 +51,10 @@ export default function Experience() {
                 <motion.div style={{scaleY: scrollYProgress}} className="absolute left-9 top-1 w-[4px] h-full bg-black dark:bg-light origin-top" />
 
                     <ul className="w-full flex flex-col items-start justify-between ml-4">
+                        <Details 
+                            position="Sales Support Specialist" company="Clearlight Infrared Saunas" url="https://infraredsauna.com" time="May 2024 - Current" address="Remote" work="Troubleshoot tier 1 customer/technical issues and perform escalation procedures.
+                            Utilize CRM software (Keap, NetSuite, Podium) to drive productivity in assigning + organizing leads. Develop strong communication skills with a customer-centric approach."
+                        />
                         <Details
                             position="Software Development Tutor" company="CWI" url='https://cwi.edu/' time="Jan. 2024 - May 2024" address="Nampa, ID" work="Position offered through a recommendation by the 2nd year professor.
                             Helped tutor a class of 19 students learn the fundamentals of OOP with C#/Windows Forms and web development using HTML5/CSS3.
