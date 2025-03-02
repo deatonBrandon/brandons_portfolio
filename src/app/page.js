@@ -16,7 +16,7 @@ export default function Home() {
               className='flex items-center bg-dark dark:bg-[#4db1ff] text-light p-1.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-transparent transform transition duration-300 hover:border-dark dark:border-light hover:scale-95'>
                 Resume<RxOpenInNewWindow className='w-6 ml-1'/>
               </Link>
-              <Link href="mailto:dream.cloud936@gmail.com" target={"_blank"} 
+              <Link href="mailto:ecv1ii4im@mozmail.com" target={"_blank"} 
               className='ml-4 text-lg text-dark dark:text-light font-medium capitalize underline underline-offset-4'>
                 Contact
               </Link>

@@ -21,7 +21,7 @@ export default function Footer() {
                     <div>
                         Built with <span className="text-pink-300 px-1">&#9825;</span> by enjoiy
                     </div>           
-                    <Link href="mailto:dream.cloud936@gmail.com" target={"_blank"} className="underline underline-offset-2">Say hello</Link>
+                    <Link href="mailto:ecv1ii4im@mozmail.com" target={"_blank"} className="underline underline-offset-2">Say hello</Link>
                 </div>
 
             </footer>
