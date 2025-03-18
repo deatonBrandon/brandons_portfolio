@@ -52,8 +52,9 @@ export default function Experience() {
 
                     <ul className="w-full flex flex-col items-start justify-between ml-4">
                         <Details 
-                            position="Sales Support Specialist" company="Clearlight Infrared Saunas" url="https://infraredsauna.com" time="May 2024 - Current" address="Remote" work="Troubleshoot tier 1 customer/technical issues and perform escalation procedures.
-                            Utilize CRM software (Keap, NetSuite, Podium) to drive productivity in assigning + organizing leads. Develop strong communication skills with a customer-centric approach."
+                            position="Sales Support Specialist" company="Clearlight Infrared Saunas" url="https://infraredsauna.com" time="May 2024 - Current" address="Remote" work="Diagnose and troubleshoot software/hardware issues for customers, escalating complex problems per IT
+                            protocols.Utilize CRM software (Keap, NetSuite, Podium) to increase productivity.
+                            Analyze customer calls to identify root causes of technical issues, improving first-call resolution rates."
                         />
                         <Details
                             position="Software Development Tutor" company="CWI" url='https://cwi.edu/' time="Jan. 2024 - May 2024" address="Nampa, ID" work="Position offered through a recommendation by the 2nd year professor.
